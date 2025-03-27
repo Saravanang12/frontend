@@ -134,19 +134,5 @@
       }
     }
   },
-  "defaultProject": "shop",
-},
-
-"projects": {
-  "shop": {
-    "architect": {
-      "build": {
-        "options": {
-          "outputPath": "dist/shop",
-          "baseHref": "/frontend/"
-        }
-      }
-    }
-  }
+  "defaultProject": "shop"
 }
-
