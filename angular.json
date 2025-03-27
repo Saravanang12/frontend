@@ -18,7 +18,7 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
-            "baseHref": "/shop/",  // Ensure this matches your repo name on GitHub Pages
+            "baseHref": "/frontend/",  
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": ["src/styles.css"],
             "scripts": [
@@ -28,6 +28,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/frontend/",
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
